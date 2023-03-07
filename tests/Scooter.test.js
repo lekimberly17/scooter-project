@@ -10,7 +10,7 @@ describe('scooter methods', () => {
   // tests here!
   let scooter
   let user
-
+  //This is good, I like that you are not making new scooters for each individual test
   beforeEach(() => {
     scooter = new Scooter('Station A')
     user = new User('carm')
